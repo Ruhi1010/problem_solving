@@ -16,7 +16,7 @@ class Solution:
                 i += 1          # Move the unique pointer forward
                 nums[i] = nums[j] # Overwrite the next spot with the new unique value
         
-        # Return the number of unique elements (index + 1)
+        # Return the list
         return nums[:i + 1]
     
 
