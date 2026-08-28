@@ -12,7 +12,7 @@ class Solution:
 
 s = Solution()
 # Example usage:
-nums = [3, 2, 2, 2, 2, 3]
+nums = [3, 2, 2, 2, 2, 3, 5]
 val = 3
 result = s.removeElement(nums, val)
 print("The new length of the array after removing the value is:", result)
