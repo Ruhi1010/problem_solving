@@ -13,4 +13,4 @@ class Solution:
             return self.isHappy(sum) 
 
 s = Solution()
-print(s.isHappy(2))
+print(s.isHappy(int(input("Enter a number: "))))
